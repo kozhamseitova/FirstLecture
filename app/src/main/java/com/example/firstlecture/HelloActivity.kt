@@ -42,4 +42,5 @@ class HelloActivity : AppCompatActivity() {
         super.onDestroy()
     }
 
+
 }

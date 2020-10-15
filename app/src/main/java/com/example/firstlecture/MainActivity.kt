@@ -45,6 +45,7 @@ class MainActivity : AppCompatActivity() {
         Log.d(TAG,"onRestart")
     }
 
+    
     override fun onDestroy() {
         Log.d(TAG,"onDestroy")
         super.onDestroy()

@@ -9,6 +9,7 @@ private const val TAG1 = "HelloActivity"
 class HelloActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+        Log.d(TAG1,"onCreate")
         setContentView(R.layout.activity_hello)
     }
 

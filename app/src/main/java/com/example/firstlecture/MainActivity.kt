@@ -39,4 +39,15 @@ class MainActivity : AppCompatActivity() {
         Log.d(TAG, "onStop")
         super.onStop();
     }
+
+    override fun onRestart() {
+        super.onRestart()
+        Log.d(TAG,"onRestart")
+    }
+
+    override fun onDestroy() {
+        Log.d(TAG,"onDestroy")
+        super.onDestroy()
+    }
+
 }

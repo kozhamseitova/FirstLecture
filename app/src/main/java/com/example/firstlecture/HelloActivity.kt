@@ -31,4 +31,15 @@ class HelloActivity : AppCompatActivity() {
         Log.d(TAG1, "onStop")
         super.onStop();
     }
+
+    override fun onRestart() {
+        super.onRestart()
+        Log.d(TAG1,"onRestart")
+    }
+
+    override fun onDestroy() {
+        Log.d(TAG1,"onDestroy")
+        super.onDestroy()
+    }
+
 }
